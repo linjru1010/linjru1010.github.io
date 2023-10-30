@@ -3,6 +3,10 @@
 }
 body {
   background-color: #f9f9f7;
+  background-image: url(../img/背景圖.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 149px;
 }
 .ntua_kitchen {
   background-color: #474747;
@@ -94,6 +98,18 @@ body {
   height: 48px;
   top: 3.5px;
   width: 120px;
+}
+/*白色圈圈*/
+
+/*台藝廚房*/
+h2 {
+  position: absolute;
+  text-align: center;
+  width: 667px;
+  top: 356px;
+  left: calc(50% - 333.5px);
+  gap: 40px;
+  font-size: 100px;
 }
 /*快來發現浮州美食*/
 .float {
