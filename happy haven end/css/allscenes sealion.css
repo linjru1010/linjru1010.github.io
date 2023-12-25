@@ -1,0 +1,193 @@
+.background {
+  background-color: black;
+  mask-repeat: no-repeat;
+  background-size: 100vw;
+  height: 100vh;
+}
+.rebon {
+  position: absolute;
+  top: 117px;
+  left: calc(50% - 275.5px);
+  width: 551px;
+  height: 52.06px;
+}
+.blackphoto {
+  position: absolute;
+  top: 75px;
+  left: calc(50% - 60.5px);
+  width: 121px;
+  height: 121px;
+}
+.animation {
+  position: absolute;
+  top: 214.18px;
+  left: calc(50% - 298px);
+  width: 596px;
+  height: 596px;
+}
+.nextpage {
+  position: absolute;
+  top: 829px;
+  left: 1171px;
+  width: 108px;
+  height: 25px;
+}
+.nextpage a {
+  text-decoration: none;
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  opacity: 0.4;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+h1 {
+  position: absolute;
+  top: 873px;
+  left: 662px;
+  width: 128px;
+  height: 48px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  overflow: hidden;
+  border-right: 0.05em solid;
+  white-space: nowrap;
+  animation: typing 3s steps(5), caret 1s steps(1) infinite;
+}
+h2 {
+  position: absolute;
+  top: 915px;
+  left: 662px;
+  width: 150px;
+  height: 48px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  overflow: hidden;
+  border-right: 0.05em solid;
+  white-space: nowrap;
+  animation: typing 3s steps(12), caret 1s steps(1) infinite;
+}
+h3 {
+  position: absolute;
+  top: 873px;
+  left: 662px;
+  width: 128px;
+  height: 48px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  overflow: hidden;
+  border-right: 0.05em solid;
+  white-space: nowrap;
+  animation: typing 3s steps(7), caret 1s steps(1) infinite;
+}
+h4 {
+  position: absolute;
+  top: 915px;
+  left: 662px;
+  width: 280px;
+  height: 48px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  overflow: hidden;
+  border-right: 0.05em solid;
+  white-space: nowrap;
+  animation: typing 3s steps(12), caret 1s steps(1) infinite;
+}
+h5 {
+  position: absolute;
+  top: 873px;
+  left: 662px;
+  width: 105px;
+  height: 48px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  overflow: hidden;
+  border-right: 0.05em solid;
+  white-space: nowrap;
+  animation: typing 3s steps(7), caret 1s steps(1) infinite;
+}
+h6 {
+  position: absolute;
+  top: 915px;
+  left: 662px;
+  width: 150px;
+  height: 48px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  overflow: hidden;
+  border-right: 0.05em solid;
+  white-space: nowrap;
+  animation: typing 3s steps(12), caret 1s steps(1) infinite;
+}
+h7 {
+  position: absolute;
+  top: 873px;
+  left: 662px;
+  width: 147px;
+  height: 48px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  overflow: hidden;
+  border-right: 0.05em solid;
+  white-space: nowrap;
+  animation: typing 3s steps(7), caret 1s steps(1) infinite;
+}
+h8 {
+  position: absolute;
+  top: 915px;
+  left: 662px;
+  width: 324px;
+  height: 48px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  overflow: hidden;
+  border-right: 0.05em solid;
+  white-space: nowrap;
+  animation: typing 3s steps(12), caret 1s steps(1) infinite;
+}

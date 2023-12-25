@@ -1,0 +1,385 @@
+/* -------navigation & footer------- */
+.navigation {
+  background-color: rgb(0, 0, 0);
+  height: 100px;
+  width: 100vw;
+  top: 0%;
+  position: fixed;
+  z-index: 999;
+}
+/* 設定logo樣式 */
+.navigation .logo img {
+  width: 127px;
+}
+/* 設定logo位置 */
+.navigation .logo {
+  position: absolute;
+  top: 18px;
+  left: 29px;
+}
+/* 設定menu樣式 */
+.navigation .menu a {
+  text-decoration: none;
+  color: #fff4cb;
+  font-family: "Noto Sans TC";
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 2.5px;
+}
+.menu .normal_page a:hover {
+  color: #ffffff;
+}
+.menu .normal_page a:active {
+  color: #c5c5c5;
+}
+.highlight_page {
+  position: relative;
+}
+.menu .highlight_page a {
+  color: #c5c5c5;
+}
+.line {
+  height: 13px;
+  width: 3px;
+  background-color: #c5c5c5;
+  position: absolute;
+  top: 34px;
+  left: 62.5px;
+}
+/* 設定menu位置 */
+.navigation .menu {
+  width: 400px;
+  position: absolute;
+  top: 53px;
+  left: calc(100vw - 580px);
+}
+.navigation .menu li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+/* 設定footer */
+.footer {
+  color: #f1f1f1;
+  font-family: Noto Sans TC;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 46px);
+  top: calc(100vh - 30px);
+}
+/* -------navigation & footer------- */
+/*-----------------*/
+/*第一位置*/
+
+.first {
+  background-image: url(../img/3.0背景-03.png);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  height: 100vh;
+}
+
+.first .titletext {
+  position: absolute;
+  top: 167px;
+  left: calc(50% - 160px);
+  width: 320px;
+}
+
+.first p {
+  color: #fff;
+  text-align: center;
+  font-family: Inria Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px; /* 82.5% */
+}
+.first .flower {
+  position: absolute;
+  top: 230px;
+  left: calc(50% - 97.5px);
+}
+.first img {
+  width: 195px;
+  height: 195px;
+}
+.first .smoke {
+  position: absolute;
+  top: 340px;
+  left: 895px;
+  width: 126px;
+  height: 126px;
+}
+.first ul {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 997px;
+  left: calc(50% - 32px);
+}
+.first ul img {
+  width: 64px;
+  height: 64px;
+}
+/*第二位置*/
+
+.second {
+  background-color: #f1f1f1;
+  height: 1056px;
+  background-size: 100vw;
+}
+
+.second p {
+  /*長相*/
+  text-decoration: none;
+  color: black;
+  font-family: "Noto Sans TC";
+  font-weight: 600;
+  font-size: 40px;
+  width: 320px;
+}
+.second .title {
+  /*位置*/
+  position: absolute;
+  top: calc(100vh + 129px);
+  left: calc(50% - 123px);
+}
+.second .rectangle {
+  position: absolute;
+  top: calc(100vh + 236px);
+  left: calc(50% - 315.5px);
+  background-color: #ffffff;
+  width: 631px;
+  height: 631px;
+}
+
+.second .rectangle .comic {
+  position: absolute;
+  top: 68px;
+  left: calc(50% - 247px);
+  width: 494px;
+  height: 495.2px;
+}
+/*第三位置*/
+.third {
+  background-color: #1e1e1e;
+  height: 1226px;
+  background-size: 100vw;
+}
+
+.third .title {
+  /*長相*/
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Noto Sans TC";
+  font-weight: 600;
+  font-size: 40px;
+  width: 265px;
+
+  /*位置*/
+  position: absolute;
+  top: calc(200vh + 432px);
+  left: 200px;
+}
+
+.third .subtitle {
+  /*長相*/
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Noto Sans TC";
+  font-weight: 300;
+  font-size: 28px;
+  width: 422px;
+
+  /*位置*/
+  position: absolute;
+  top: calc(200vh + 493px);
+  left: 200px;
+}
+.third .text a {
+  /*長相*/
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Noto Sans TC";
+  font-weight: 600;
+  font-size: 24px;
+}
+.third .text .btitle {
+  /*位置*/
+  position: absolute;
+  top: calc(200vh + 104px);
+  left: 842px;
+}
+
+.third .text .ctitle {
+  /*位置*/
+  position: absolute;
+  top: calc(200vh + 284px);
+  left: 842px;
+}
+
+.third .text .dtitle {
+  /*位置*/
+  position: absolute;
+  top: calc(200vh + 463px);
+  left: 842px;
+}
+
+.third .text .etitle {
+  /*位置*/
+  position: absolute;
+  top: calc(200vh + 640px);
+  left: 842px;
+}
+
+.third .text p {
+  /*長相*/
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Noto Sans TC";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  width: 880px;
+}
+
+.third .text .bp {
+  /*位置*/
+  position: absolute;
+  top: calc(200vh + 154px);
+  left: 842px;
+}
+
+.third .text .cp {
+  /*位置*/
+  position: absolute;
+  top: calc(200vh + 338px);
+  left: 842px;
+}
+
+.third .text .dp {
+  /*位置*/
+  position: absolute;
+  top: calc(200vh + 515px);
+  left: 842px;
+}
+
+.third .text .ep {
+  /*位置*/
+  position: absolute;
+  top: calc(200vh + 690px);
+  left: 842px;
+}
+
+.third .text .fp {
+  /*位置*/
+  position: absolute;
+  top: calc(200vh + 924px);
+  left: 842px;
+}
+.third .line {
+  /*長相*/
+  width: 872.5px;
+  height: 0px;
+  border: 1px;
+  color: #828282;
+  border-style: solid;
+
+  /*位置*/
+  position: absolute;
+  top: calc(200vh + 890px);
+  left: 842px;
+}
+
+.third .lookformore {
+  /*長相*/
+  font-family: "Noto Sans TC";
+  font-weight: 300;
+  font-size: 24px;
+  width: 248px;
+  /*位置*/
+  position: absolute;
+  top: calc(200vh + 1042px);
+  left: 1472px;
+}
+.third .lookformore a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.third .lookformore a:hover {
+  color: #fff4cb;
+}
+
+.third .lookformore a:active {
+  color: #c5c5c5;
+}
+/*第四位置*/
+.forth {
+  position: relative;
+  background-color: #f1f1f1;
+  height: 831px;
+  background-size: 100vw;
+}
+
+.forth .animal {
+  position: absolute;
+  top: 125px;
+  left: calc(50% - 185px);
+  width: 370px;
+  height: 269.63px;
+}
+.forth .rectangle2 {
+  width: 347px;
+  height: 150px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  top: 435px;
+  left: calc(50% - 173.5px);
+}
+.rectangle2:hover {
+  background-color: #000000;
+  color: #fff4cb;
+}
+.rectangle2:active {
+  background-color: #c5c5c5;
+  color: #000000;
+}
+.forth .rectangle2 #p1 {
+  font-family: Noto Sans;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+.forth .rectangle2 #p2 {
+  font-family: Inria Sans;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 3.2px;
+}
+.forth .lookfornext {
+  /*長相*/
+  width: 280px;
+  height: 35px;
+  position: absolute;
+  top: 649px;
+  left: 1410px;
+}
+.forth .lookfornext p {
+  text-decoration: none;
+  font-family: "Noto Sans TC";
+  font-weight: 300;
+  font-size: 24px;
+  color: #000000;
+}
+
+.forth .lookfornext a:hover {
+  color: #fff4cb;
+}
+
+.forth .lookformore a:active {
+  color: #c5c5c5;
+}
