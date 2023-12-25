@@ -1,0 +1,547 @@
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+/* -------navigation & footer------- */
+.navigation {
+  background-color: rgb(0, 0, 0);
+  height: 100px;
+  width: 100vw;
+  position: absolute;
+  top: 0px;
+}
+/* 設定logo樣式 */
+.navigation .logo img {
+  width: 127px;
+}
+/* 設定logo位置 */
+.navigation .logo {
+  position: absolute;
+  top: 18px;
+  left: 29px;
+}
+/* 設定menu樣式 */
+.navigation .menu a {
+  text-decoration: none;
+  color: #fff4cb;
+  font-family: "Noto Sans TC";
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 2.5px;
+}
+.menu .normal_page a:hover {
+  color: #ffffff;
+}
+.menu .normal_page a:active {
+  color: #c5c5c5;
+}
+.highlight_page {
+  position: relative;
+}
+.menu .highlight_page a {
+  color: #c5c5c5;
+}
+.line {
+  height: 13px;
+  width: 3px;
+  background-color: #c5c5c5;
+  position: absolute;
+  top: 34px;
+  left: 62.5px;
+}
+/* 設定menu位置 */
+.navigation .menu {
+  width: 400px;
+  position: absolute;
+  top: 53px;
+  left: calc(100vw - 580px);
+}
+.navigation .menu li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+/* 設定footer */
+.footer {
+  color: #f1f1f1;
+  font-family: Noto Sans TC;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 46px);
+  top: calc(100vh - 30px);
+}
+/* -------navigation & footer------- */
+body {
+  height: 100vh;
+  background-color: #828282;
+  background-image: url(../img/1.0背景.png);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position: bottom;
+}
+.title {
+  color: #ffffff;
+  font-family: "Inria Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  top: 186px;
+  left: calc(50% - 140px);
+  letter-spacing: 1.5px;
+}
+.animal_button {
+  width: 1564px;
+  position: absolute;
+  left: calc(50% - 782px);
+  top: calc(50% - 131px);
+}
+.animal_button ul {
+  display: inline-block;
+  margin: 0px 14px;
+}
+/* ---動物按鈕top--- */
+.buttons {
+  width: 228px;
+  height: 307px;
+  position: relative;
+}
+.circle {
+  border: none;
+  background-color: #000000;
+  width: 228px;
+  height: 228px;
+  border-radius: 50%;
+
+  background-repeat: no-repeat;
+  background-size: 196.5px;
+  background-position-x: 15.75px;
+  background-position-y: 8.75px;
+}
+.square {
+  border: 2px solid #c5c5c5;
+  background: #ffffff;
+  width: 180px;
+  height: 60px;
+  border-radius: 5px;
+  position: absolute;
+  left: 24px;
+  top: 247px;
+}
+.square p {
+  color: #000000;
+  font-family: Noto Sans TC;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.buttons:hover {
+  .square {
+    border: 2px solid #000000;
+    background: #000000;
+  }
+  .square p {
+    color: #fff4cb;
+  }
+}
+.buttons:active {
+  .square {
+    border: 2px solid #ffffff;
+    background: #c5c5c5;
+  }
+  .square p {
+    color: #000000;
+  }
+}
+.btn {
+  vertical-align: baseline;
+}
+/* ---動物按鈕end--- */
+/* 兔 */
+#bunny_circle {
+  background-image: url(../img/兔子_defult.png);
+}
+#bunny_button:hover {
+  #bunny_circle {
+    background-image: url(../img/兔子_hover.png);
+    background-color: #00dee1;
+  }
+}
+#bunny_button:active {
+  #bunny_circle {
+    background-image: url(../img/兔子_active.png);
+    background-color: #ffffff;
+  }
+}
+/* 象 */
+#elephant_circle {
+  background-image: url(../img/象_defult.png);
+}
+#elephant_button:hover {
+  #elephant_circle {
+    background-image: url(../img/象_hover.png);
+    background-color: #ff71a9;
+  }
+}
+#elephant_button:active {
+  #elephant_circle {
+    background-image: url(../img/象_active.png);
+    background-color: #ffffff;
+  }
+}
+/* 鵝 */
+#goose_circle {
+  background-image: url(../img/鵝_defult.png);
+}
+#goose_button:hover {
+  #goose_circle {
+    background-image: url(../img/鵝_hover.png);
+    background-color: #01d589;
+  }
+}
+#goose_button:active {
+  #goose_circle {
+    background-image: url(../img/鵝_active.png);
+    background-color: #ffffff;
+  }
+}
+/* 鯊魚 */
+#shark_circle {
+  background-image: url(../img/鯊_defult.png);
+}
+#shark_button:hover {
+  #shark_circle {
+    background-image: url(../img/鯊_hover.png);
+    background-color: #ff71a9;
+  }
+}
+#shark_button:active {
+  #shark_circle {
+    background-image: url(../img/鯊_active.png);
+    background-color: #ffffff;
+  }
+}
+/* 海龜 */
+#turtle_circle {
+  background-image: url(../img/龜_defult.png);
+}
+#turtle_button:hover {
+  #turtle_circle {
+    background-image: url(../img/龜_hover.png);
+    background-color: #00dee1;
+  }
+}
+#turtle_button:active {
+  #turtle_circle {
+    background-image: url(../img/龜_active.png);
+    background-color: #ffffff;
+  }
+}
+/* 海豹 */
+#seal_circle {
+  background-image: url(../img/豹_defult.png);
+}
+#seal_button:hover {
+  #seal_circle {
+    background-image: url(../img/豹_hover.png);
+    background-color: #01d589;
+  }
+}
+#seal_button:active {
+  #seal_circle {
+    background-image: url(../img/豹_active.png);
+    background-color: #ffffff;
+  }
+}
+/* 視窗 */
+.modal-dialog {
+  margin: 0%;
+}
+.modal-content {
+  width: 676px;
+  height: 725px;
+  background-image: url(../img/視窗背景圖.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  position: absolute;
+  top: calc(50vh - 342px);
+  left: calc(50vw - 338px);
+}
+/*正方形圖片*/
+.picture_1 {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 190px;
+  left: 20px;
+}
+.picture_1 img {
+  width: 400px;
+  height: 400px;
+}
+.picture_2 {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 240px;
+  left: 45px;
+}
+.picture_2 img {
+  width: 350px;
+  height: 350px;
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.picture_3 {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 225px;
+  left: 45px;
+}
+.picture_3 img {
+  width: 350px;
+  height: 350px;
+}
+.picture_4 {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 310px;
+  left: 30px;
+}
+.picture_4 img {
+  height: 230px;
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.picture_5 {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 240px;
+  left: 30px;
+}
+.picture_5 img {
+  width: 340px;
+  height: 340px;
+}
+.picture_6 {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 265px;
+  left: 45px;
+}
+.picture_6 img {
+  width: 320px;
+  height: 320px;
+}
+/* 看故事 botton*/
+.read_story {
+  width: 237px;
+  height: 65px;
+  background-color: #fff4cb;
+  border-radius: 5px;
+  border: 2px solid #000000;
+  position: absolute;
+  top: 459px;
+  left: 349px;
+}
+.read_story a {
+  text-decoration: none;
+  color: #000000;
+}
+.read_story:hover {
+  border-color: #000000;
+  background: #000000;
+  .storystory {
+    color: #fff4cb;
+  }
+}
+:not(.btn-check) + .btn:active {
+  border-color: #ffffff;
+  background: #c5c5c5;
+  .storystory {
+    color: #000000;
+  }
+}
+.read_story span {
+  vertical-align: middle;
+}
+.read_story .text {
+  font-size: 22px;
+  font-weight: 600;
+}
+.read_story .material-symbols-outlined {
+  font-size: 28px;
+}
+/* close_botton */
+.close {
+  position: absolute;
+  top: 80px;
+  left: 600px;
+}
+.btn-close {
+  --bs-btn-close-bg: none;
+  color: #ffffff;
+}
+.btn-close:hover {
+  color: #828282;
+}
+.btn-close .cross {
+  position: absolute;
+  left: -0.5px;
+  top: -0.5px;
+}
+/* 文字 */
+.bunnys_story {
+  color: #000000;
+  text-align: center;
+  font-family: Inria Sans;
+  font-size: 60px;
+  font-weight: 600;
+  position: relative;
+  top: 145px;
+}
+.subtitle {
+  color: #ff71a9;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 36px;
+  font-weight: 600;
+  position: relative;
+  top: 165px;
+}
+.content {
+  color: #000000;
+  font-family: Noto Sans TC;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  position: absolute;
+  left: 349px;
+  top: 362px;
+}
+/*背景的雲*/
+.mask {
+  width: 100vw;
+  height: calc(100vh - 100px);
+  overflow: hidden;
+}
+.tree {
+  position: absolute;
+  top: 0px;
+  background-image: url(../img/1.0_樹.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-size: 100vw;
+  background-position: bottom;
+}
+.cloud1 {
+  position: absolute;
+  animation-name: cloud_1;
+  animation-duration: 45s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes cloud_1 {
+  0% {
+    margin-left: 144px;
+    margin-top: 194px;
+  }
+
+  25% {
+    margin-left: -461px;
+    opacity: 1;
+  }
+  26% {
+    margin-left: -485.2px;
+    opacity: 0;
+  }
+  27% {
+    opacity: 0;
+    margin-left: 1920px;
+  }
+  28% {
+    opacity: 1;
+    margin-left: 1920px;
+  }
+  100% {
+    margin-left: 144px;
+    margin-top: 194px;
+  }
+}
+.cloud2 {
+  position: absolute;
+  animation-name: cloud_2;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes cloud_2 {
+  0% {
+    margin-left: 1028px;
+    margin-top: 141px;
+  }
+
+  60% {
+    margin-left: -397px;
+    opacity: 1;
+  }
+  61% {
+    margin-left: -397px;
+    opacity: 0;
+  }
+  62% {
+    opacity: 0;
+    margin-left: 1920px;
+  }
+  63% {
+    opacity: 1;
+    margin-left: 1920px;
+  }
+  100% {
+    margin-left: 1028px;
+    margin-top: 141px;
+  }
+}
+.cloud3 {
+  position: absolute;
+  animation-name: cloud_3;
+  animation-duration: 75s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes cloud_3 {
+  0% {
+    margin-left: 1598px;
+    margin-top: 336px;
+  }
+
+  94% {
+    margin-left: -379px;
+    opacity: 1;
+  }
+  95% {
+    margin-left: -379px;
+    opacity: 0;
+  }
+  96% {
+    opacity: 0;
+    margin-left: 1920px;
+  }
+  97% {
+    opacity: 1;
+    margin-left: 1920px;
+  }
+  100% {
+    margin-left: 1598px;
+    margin-top: 336px;
+  }
+}
