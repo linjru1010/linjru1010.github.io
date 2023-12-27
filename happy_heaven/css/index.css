@@ -11,24 +11,27 @@ body {
   left: calc(50% - 376px);
   top: 352px;
 }
+.smalllogo3 {
+  width: 96px;
+  height: 320px;
+  position: fixed;
+  right: 70px;
+  top: calc(100vh - 420px);
+  z-index: 990;
+}
+.smalllogo3 img {
+  height: 107px;
+  width: 107px;
+}
+.small_img {
+  margin: 20px;
+}
 .scroll {
   width: 84px;
   height: 84px;
   position: fixed;
   left: calc(50% - 42px);
   top: 968px;
-}
-.smalllogo3 {
-  width: 96px;
-  height: 320px;
-  position: fixed;
-  right: 55px;
-  top: 687px;
-  z-index: 990;
-}
-.smalllogo3 img {
-  width: 96px;
-  height: 107px;
 }
 .stair img {
   width: 879px;
