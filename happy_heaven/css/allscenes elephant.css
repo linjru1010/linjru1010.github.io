@@ -1,6 +1,5 @@
-.background {
+body {
   background-color: black;
-  mask-repeat: no-repeat;
   background-size: 100vw;
   height: 100vh;
 }
@@ -27,23 +26,25 @@
 }
 .nextpage {
   position: absolute;
-  top: 829px;
-  left: 1171px;
-  width: 108px;
+  top: 82px;
+  right: 0px;
+  width: 90px;
   height: 25px;
-}
-.nextpage a {
   text-decoration: none;
-  color: #fff;
-
+  color: #828282;
   font-family: Inter;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  opacity: 0.4;
+  letter-spacing: 1px;
 }
-
+.nextpage:hover {
+  color: #fff4cb;
+}
+.nextpage:active {
+  color: #c5c5c5;
+}
 @keyframes typing {
   from {
     width: 0;
@@ -54,11 +55,16 @@
     border-color: transparent;
   }
 }
-
-h1 {
+.content {
+  width: 596px;
+  height: 130px;
   position: absolute;
-  top: 873px;
-  left: 662px;
+  display: flex;
+  justify-items: center;
+  left: calc(50vw - 298px);
+  top: 835px;
+}
+h1 {
   width: 73px;
   height: 48px;
   color: #fff;
@@ -70,13 +76,12 @@ h1 {
   overflow: hidden;
   border-right: 0.05em solid;
   white-space: nowrap;
-  animation: typing 3s steps(5), caret 1s steps(1) infinite;
+  animation: typing 1s steps(3), caret 1s steps(1) infinite;
 }
 h2 {
   position: absolute;
-  top: 915px;
-  left: 662px;
-  width: 190px;
+  top: 42px;
+  width: 180px;
   height: 48px;
   color: #fff;
   font-family: Inter;
@@ -87,13 +92,10 @@ h2 {
   overflow: hidden;
   border-right: 0.05em solid;
   white-space: nowrap;
-  animation: typing 3s steps(12), caret 1s steps(1) infinite;
+  animation: typing 1s steps(14), caret 1s steps(1) infinite;
 }
 h3 {
-  position: absolute;
-  top: 873px;
-  left: 662px;
-  width: 116px;
+  width: 146px;
   height: 48px;
   color: #fff;
   font-family: Inter;
@@ -104,13 +106,12 @@ h3 {
   overflow: hidden;
   border-right: 0.05em solid;
   white-space: nowrap;
-  animation: typing 3s steps(7), caret 1s steps(1) infinite;
+  animation: typing 1s steps(6), caret 1s steps(1) infinite;
 }
 h4 {
   position: absolute;
-  top: 915px;
-  left: 662px;
-  width: 150px;
+  top: 42px;
+  width: 153px;
   height: 48px;
   color: #fff;
   font-family: Inter;
@@ -121,13 +122,10 @@ h4 {
   overflow: hidden;
   border-right: 0.05em solid;
   white-space: nowrap;
-  animation: typing 3s steps(12), caret 1s steps(1) infinite;
+  animation: typing 1s steps(12), caret 1s steps(1) infinite;
 }
 h5 {
-  position: absolute;
-  top: 873px;
-  left: 662px;
-  width: 75px;
+  width: 97px;
   height: 48px;
   color: #fff;
   font-family: Inter;
@@ -138,13 +136,12 @@ h5 {
   overflow: hidden;
   border-right: 0.05em solid;
   white-space: nowrap;
-  animation: typing 3s steps(7), caret 1s steps(1) infinite;
+  animation: typing 1s steps(5), caret 1s steps(1) infinite;
 }
 h6 {
   position: absolute;
-  top: 915px;
-  left: 662px;
-  width: 102px;
+  top: 42px;
+  width: 111px;
   height: 48px;
   color: #fff;
   font-family: Inter;
@@ -155,12 +152,9 @@ h6 {
   overflow: hidden;
   border-right: 0.05em solid;
   white-space: nowrap;
-  animation: typing 3s steps(12), caret 1s steps(1) infinite;
+  animation: typing 1s steps(9), caret 1s steps(1) infinite;
 }
 h7 {
-  position: absolute;
-  top: 873px;
-  left: 662px;
   width: 271px;
   height: 48px;
   color: #fff;
@@ -172,12 +166,11 @@ h7 {
   overflow: hidden;
   border-right: 0.05em solid;
   white-space: nowrap;
-  animation: typing 3s steps(7), caret 1s steps(1) infinite;
+  animation: typing 1.5s steps(11), caret 1s steps(1) infinite;
 }
 h8 {
   position: absolute;
-  top: 915px;
-  left: 662px;
+  top: 42px;
   width: 238px;
   height: 48px;
   color: #fff;
@@ -189,5 +182,5 @@ h8 {
   overflow: hidden;
   border-right: 0.05em solid;
   white-space: nowrap;
-  animation: typing 3s steps(12), caret 1s steps(1) infinite;
+  animation: typing 1.5s steps(20), caret 1s steps(1) infinite;
 }

@@ -91,7 +91,7 @@ body {
 .animal_button {
   width: 1564px;
   position: absolute;
-  left: calc(50% - 782px);
+  left: calc(50% - 778px);
   top: calc(50% - 131px);
 }
 .animal_button ul {
@@ -105,6 +105,9 @@ body {
   position: relative;
 }
 .circle {
+  position: absolute;
+  left: 0px;
+  top: 0px;
   border: none;
   background-color: #000000;
   width: 228px;
@@ -131,6 +134,7 @@ body {
   font-size: 22px;
   font-weight: 600;
   letter-spacing: 1px;
+  line-height: 41px;
 }
 .buttons:hover {
   .square {
@@ -351,21 +355,25 @@ body {
   top: 459px;
   left: 349px;
 }
-.read_story a {
+.read_story span {
   text-decoration: none;
   color: #000000;
 }
-.read_story:hover {
-  border-color: #000000;
-  background: #000000;
-  .storystory {
+.storystory:hover {
+  .read_story {
+    border-color: #000000;
+    background: #000000;
+  }
+  .read_story span {
     color: #fff4cb;
   }
 }
-:not(.btn-check) + .btn:active {
-  border-color: #ffffff;
-  background: #c5c5c5;
-  .storystory {
+.storystory:active {
+  .read_story {
+    border-color: #ffffff;
+    background: #c5c5c5;
+  }
+  .read_story span {
     color: #000000;
   }
 }
@@ -405,7 +413,7 @@ body {
   font-size: 60px;
   font-weight: 600;
   position: relative;
-  top: 145px;
+  top: 130px;
 }
 .subtitle {
   color: #ff71a9;
@@ -414,7 +422,7 @@ body {
   font-size: 36px;
   font-weight: 600;
   position: relative;
-  top: 165px;
+  top: 110px;
 }
 .content {
   color: #000000;
@@ -424,7 +432,7 @@ body {
   letter-spacing: 1px;
   position: absolute;
   left: 349px;
-  top: 362px;
+  top: 357px;
 }
 /*背景的雲*/
 .mask {

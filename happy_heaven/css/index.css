@@ -5,33 +5,32 @@ body {
   background-color: #f1f1f1;
 }
 .biglogo img {
-  width: 653px;
-  height: 317px;
+  width: 600px;
   position: absolute;
-  left: calc(50% - 376px);
-  top: 352px;
+  left: calc(50% - 330px);
+  top: calc(50% - 210px);
+}
+.arrow {
+  width: 400px;
+  z-index: 990;
+  position: absolute;
+  left: calc(50% - 200px);
+  top: calc(50% + 120px);
 }
 .smalllogo3 {
-  width: 96px;
-  height: 320px;
+  width: 80px;
+  height: 300px;
   position: fixed;
-  right: 70px;
-  top: calc(100vh - 420px);
+  right: 30px;
+  top: calc(100vh - 315px);
   z-index: 990;
 }
 .smalllogo3 img {
-  height: 107px;
-  width: 107px;
+  height: 80px;
+  width: 80px;
 }
 .small_img {
-  margin: 20px;
-}
-.scroll {
-  width: 84px;
-  height: 84px;
-  position: fixed;
-  left: calc(50% - 42px);
-  top: 968px;
+  margin: 20px 0;
 }
 .stair img {
   width: 879px;
@@ -41,7 +40,7 @@ body {
   top: 867px;
 }
 .stone img {
-  width: 1920px;
+  width: 100vw;
   height: 1508px;
   position: absolute;
 
@@ -49,28 +48,32 @@ body {
 }
 
 .topword {
-  color: #000000;
+  color: #101010;
   width: 462px;
   height: 72px;
   font-family: Noto Sans TC;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 400;
+  letter-spacing: 1px;
   position: absolute;
   left: calc(50% - 231px);
-  top: 832px;
+  top: calc(50vh + 200px);
   display: flex;
   justify-content: center;
 }
 .topword2 {
-  color: #000000;
+  color: #101010;
   width: 462px;
   height: 72px;
   font-family: Noto Sans TC;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 400;
+  letter-spacing: 1px;
   position: absolute;
+  display: flex;
+  justify-content: center;
   left: calc(50% - 231px);
-  top: 868px;
+  top: calc(50vh + 228px);
   z-index: 999;
 }
 .rabbitword {
@@ -212,15 +215,6 @@ body {
   position: absolute;
   background-color: black;
 }
-.into {
-  width: 198px;
-  height: 65px;
-  left: calc(50% - 99px);
-  bottom: calc(100% - 291px);
-  position: absolute;
-  background: white;
-  border-radius: 5px;
-}
 .ele {
   width: 600px;
   height: 600px;
@@ -237,40 +231,20 @@ body {
   transform: scaleX(-1);
 }
 .ele:hover {
-  width: 600px;
-  height: 600px;
-  position: absolute;
-  left: 190px;
-  top: 1500px;
-  z-index: 998;
   background-image: url(../img/大象hover.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  -moz-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  transform: scaleX(-1);
 }
 .ele:active {
-  width: 600px;
-  height: 600px;
-  position: absolute;
-  left: 190px;
-  top: 1500px;
-  z-index: 998;
   background-image: url(../img/大象active.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  -moz-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  transform: scaleX(-1);
 }
 .rab {
   width: 450px;
   height: 450px;
   position: absolute;
-  left: 1240px;
+  left: calc(100vw - 600px);
   top: 1042px;
   z-index: 997;
   background-image: url(../img/兔子default.gif);
@@ -278,23 +252,11 @@ body {
   background-repeat: no-repeat;
 }
 .rab:hover {
-  width: 450px;
-  height: 450px;
-  position: absolute;
-  left: 1240px;
-  top: 1042px;
-  z-index: 997;
   background-image: url(../img/兔hover.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
 .rab:active {
-  width: 450px;
-  height: 450px;
-  position: absolute;
-  left: 1240px;
-  top: 1042px;
-  z-index: 997;
   background-image: url(../img/兔active.png);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -311,23 +273,11 @@ body {
   background-repeat: no-repeat;
 }
 .seal:hover {
-  width: 450px;
-  height: 450px;
-  position: absolute;
-  left: 240px;
-  top: 2566px;
-  z-index: 996;
   background-image: url(../img/海獅hover.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
 .seal:active {
-  width: 450px;
-  height: 450px;
-  position: absolute;
-  left: 260px;
-  top: 2566px;
-  z-index: 996;
   background-image: url(../img/海獅active.png);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -337,8 +287,8 @@ body {
   width: 450px;
   height: 450px;
   position: absolute;
-  left: 1185px;
-  top: 1970px;
+  left: calc(100vw - 650px);
+  top: 1960px;
   z-index: 995;
   background-image: url(../img/鵝default.gif);
   background-size: 100%;
@@ -349,34 +299,14 @@ body {
   transform: scaleX(-1);
 }
 .goo:hover {
-  width: 450px;
-  height: 450px;
-  position: absolute;
-  left: 1185px;
-  top: 1970px;
-  z-index: 995;
   background-image: url(../img/鵝hover.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  -moz-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  transform: scaleX(-1);
 }
 .goo:active {
-  width: 450px;
-  height: 450px;
-  position: absolute;
-  left: 1185px;
-  top: 1970px;
-  z-index: 995;
   background-image: url(../img/鵝active.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  -moz-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  transform: scaleX(-1);
 }
 .tur {
   width: 350px;
@@ -390,23 +320,11 @@ body {
   background-repeat: no-repeat;
 }
 .tur:hover {
-  width: 350px;
-  height: 350px;
-  position: absolute;
-  left: 1250px;
-  top: 2800px;
-  z-index: 994;
   background-image: url(../img/海龜hover.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
 .tur:active {
-  width: 350px;
-  height: 350px;
-  position: absolute;
-  left: 1250px;
-  top: 2800px;
-  z-index: 994;
   background-image: url(../img/海龜active.png);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -423,23 +341,11 @@ body {
   background-repeat: no-repeat;
 }
 .sha:hover {
-  width: 700px;
-  height: 700px;
-  position: absolute;
-  left: 400px;
-  top: 2985px;
-  z-index: 993;
   background-image: url(../img/鯊魚hover.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
 .sha:active {
-  width: 700px;
-  height: 700px;
-  position: absolute;
-  left: 400px;
-  top: 2985px;
-  z-index: 993;
   background-image: url(../img/鯊魚active.png);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -449,11 +355,12 @@ body {
   width: 572px;
   height: 32px;
   font-family: Noto Sans TC;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 400;
+  letter-spacing: 1px;
   position: absolute;
   left: calc(50% - 286px);
-  bottom: 662px;
+  bottom: 630px;
   display: flex;
   justify-content: center;
 }
@@ -627,4 +534,36 @@ body {
   height: 1964px;
   top: 2202px;
   position: absolute;
+}
+.into {
+  border: 2px solid #c5c5c5;
+  background: #ffffff;
+  width: 180px;
+  height: 60px;
+  border-radius: 5px;
+  position: absolute;
+  left: calc(50% - 99px);
+  bottom: calc(100% - 291px);
+}
+.into span {
+  color: #000000;
+  font-family: Noto Sans TC;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 41px;
+}
+.into:hover {
+  border: 2px solid #fff4cb;
+  background: #000000;
+  span {
+    color: #fff4cb;
+  }
+}
+.into:active {
+  border: 2px solid #ffffff;
+  background: #c5c5c5;
+  span {
+    color: #000000;
+  }
 }
