@@ -28,7 +28,7 @@ body {
   position: absolute;
   top: 82px;
   right: 0px;
-  width: 90px;
+  width: auto;
   height: 25px;
   text-decoration: none;
   color: #828282;
@@ -65,7 +65,7 @@ body {
   top: 835px;
 }
 h1 {
-  width: 73px;
+  width: 74px;
   height: 48px;
   color: #fff;
   font-family: Inter;
@@ -80,7 +80,7 @@ h1 {
 }
 h2 {
   position: absolute;
-  top: 42px;
+  top: 45px;
   width: 180px;
   height: 48px;
   color: #fff;

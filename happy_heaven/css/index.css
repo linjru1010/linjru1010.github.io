@@ -215,6 +215,7 @@ body {
   position: absolute;
   background-color: black;
 }
+/*
 .ele {
   width: 600px;
   height: 600px;
@@ -230,17 +231,44 @@ body {
   -o-transform: scaleX(-1);
   transform: scaleX(-1);
 }
-.ele:hover {
+*/
+.hover1 {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  left: 190px;
+  top: 1500px;
+  z-index: 998;
+  background-image: url(../img/大象default.gif);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.hover1:hover {
   background-image: url(../img/大象hover.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
-.ele:active {
+.active1 {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  left: 190px;
+  top: 1500px;
+  z-index: 998;
   background-image: url(../img/大象active.png);
   background-size: 100%;
   background-repeat: no-repeat;
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+  visibility: hidden;
 }
-.rab {
+.hover2 {
   width: 450px;
   height: 450px;
   position: absolute;
@@ -251,16 +279,24 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
 }
-.rab:hover {
+.hover2:hover {
   background-image: url(../img/兔hover.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
-.rab:active {
+.active2 {
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  left: calc(100vw - 600px);
+  top: 1042px;
+  z-index: 997;
   background-image: url(../img/兔active.png);
   background-size: 100%;
   background-repeat: no-repeat;
+  visibility: hidden;
 }
+
 .seal {
   width: 450px;
   height: 450px;

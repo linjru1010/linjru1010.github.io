@@ -1,0 +1,43 @@
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.overflow {
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.overflow p {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  position: absolute;
+  top: -300px;
+  font-family: "Noto Serif TC", serif;
+}
+/*當滑鼠移到遮罩上時，被隱藏的部分出現*/
+.overflow:hover p {
+  top: 0;
+  /*transition=>轉場
+  transform=>可以設定的變化比較多，通常使用在animation中(keyframe)
+  */
+  transition: ease-in 0.5s;
+}
+/*使用jquery*/
+.index {
+  background-color: aqua;
+  width: 100vw;
+  height: 100vh;
+}
+.menu {
+  background-color: #ff2727;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}

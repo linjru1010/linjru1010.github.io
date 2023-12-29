@@ -28,7 +28,7 @@ body {
   position: absolute;
   top: 82px;
   right: 0px;
-  width: 90px;
+  width: auto;
   height: 25px;
   text-decoration: none;
   color: #828282;
@@ -125,7 +125,7 @@ h4 {
   animation: typing 1.5s steps(20), caret 1s steps(1) infinite;
 }
 h5 {
-  width: 96px;
+  width: 90px;
   height: 48px;
   color: #fff;
   font-family: Inter;
@@ -136,12 +136,12 @@ h5 {
   overflow: hidden;
   border-right: 0.05em solid;
   white-space: nowrap;
-  animation: typing 1s steps(4), caret 1s steps(1) infinite;
+  animation: typing 0.5s steps(4), caret 1s steps(1) infinite;
 }
 h6 {
   position: absolute;
   top: 42px;
-  width: 83px;
+  width: 85px;
   height: 48px;
   color: #fff;
   font-family: Inter;
@@ -152,7 +152,7 @@ h6 {
   overflow: hidden;
   border-right: 0.05em solid;
   white-space: nowrap;
-  animation: typing 1s steps(5), caret 1s steps(1) infinite;
+  animation: typing 0.5s steps(5), caret 1s steps(1) infinite;
 }
 h7 {
   width: 270px;
