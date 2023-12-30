@@ -111,7 +111,7 @@ h3 {
 h4 {
   position: absolute;
   top: 42px;
-  width: 219px;
+  width: 206px;
   height: 48px;
   color: #fff;
   font-family: Inter;
@@ -171,7 +171,7 @@ h7 {
 h8 {
   position: absolute;
   top: 42px;
-  width: 450px;
+  width: 508px;
   height: 48px;
   color: #fff;
   font-family: Inter;
@@ -182,5 +182,5 @@ h8 {
   overflow: hidden;
   border-right: 0.05em solid;
   white-space: nowrap;
-  animation: typing 1.5s steps(42), caret 1s steps(1) infinite;
+  animation: typing 2.5s steps(42), caret 1s steps(1) infinite;
 }

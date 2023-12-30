@@ -209,29 +209,11 @@ body {
 }
 
 .black img {
-  width: 1261px;
-  height: 199px;
-  top: calc(100% - 407px);
+  width: 900px;
+  top: calc(100% - 410px);
   position: absolute;
   background-color: black;
 }
-/*
-.ele {
-  width: 600px;
-  height: 600px;
-  position: absolute;
-  left: 190px;
-  top: 1500px;
-  z-index: 998;
-  background-image: url(../img/大象default.gif);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  -moz-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  transform: scaleX(-1);
-}
-*/
 .hover1 {
   width: 600px;
   height: 600px;
@@ -246,6 +228,7 @@ body {
   -webkit-transform: scaleX(-1);
   -o-transform: scaleX(-1);
   transform: scaleX(-1);
+  cursor: url(../img/knife.png) 55 55, move;
 }
 .hover1:hover {
   background-image: url(../img/大象hover.png);
@@ -257,7 +240,7 @@ body {
   height: 600px;
   position: absolute;
   left: 190px;
-  top: 1500px;
+  top: 1495px;
   z-index: 998;
   background-image: url(../img/大象active.png);
   background-size: 100%;
@@ -278,6 +261,7 @@ body {
   background-image: url(../img/兔子default.gif);
   background-size: 100%;
   background-repeat: no-repeat;
+  cursor: url(../img/knife.png) 55 55, move;
 }
 .hover2:hover {
   background-image: url(../img/兔hover.png);
@@ -296,8 +280,7 @@ body {
   background-repeat: no-repeat;
   visibility: hidden;
 }
-
-.seal {
+.hover3 {
   width: 450px;
   height: 450px;
   position: absolute;
@@ -307,19 +290,84 @@ body {
   background-image: url(../img/海獅default.gif);
   background-size: 100%;
   background-repeat: no-repeat;
+  cursor: url(../img/knife.png) 55 55, move;
 }
-.seal:hover {
+.hover3:hover {
   background-image: url(../img/海獅hover.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
-.seal:active {
+.active3 {
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  left: 191px;
+  top: 2566px;
+  z-index: 996;
   background-image: url(../img/海獅active.png);
   background-size: 100%;
   background-repeat: no-repeat;
+  visibility: hidden;
 }
-
-.goo {
+.hover4 {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  left: 1250px;
+  top: 2800px;
+  z-index: 994;
+  background-image: url(../img/海龜default.gif);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  cursor: url(../img/knife.png) 55 55, move;
+}
+.hover4:hover {
+  background-image: url(../img/海龜hover.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.active4 {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  left: 1250px;
+  top: 2800px;
+  z-index: 994;
+  background-image: url(../img/海龜active.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  visibility: hidden;
+}
+.hover5 {
+  width: 700px;
+  height: 700px;
+  position: absolute;
+  left: 400px;
+  top: 2985px;
+  z-index: 993;
+  background-image: url(../img/鯊魚default.gif);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  cursor: url(../img/knife.png) 55 55, move;
+}
+.hover5:hover {
+  background-image: url(../img/鯊魚hover.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.active5 {
+  width: 700px;
+  height: 700px;
+  position: absolute;
+  left: 400px;
+  top: 2985px;
+  z-index: 993;
+  background-image: url(../img/鯊魚active.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  visibility: hidden;
+}
+.hover6 {
   width: 450px;
   height: 450px;
   position: absolute;
@@ -333,58 +381,28 @@ body {
   -webkit-transform: scaleX(-1);
   -o-transform: scaleX(-1);
   transform: scaleX(-1);
+  cursor: url(../img/knife.png) 55 55, move;
 }
-.goo:hover {
+.hover6:hover {
   background-image: url(../img/鵝hover.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
-.goo:active {
+.active6 {
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  left: calc(100vw - 650px);
+  top: 1998px;
+  z-index: 995;
   background-image: url(../img/鵝active.png);
   background-size: 100%;
   background-repeat: no-repeat;
-}
-.tur {
-  width: 350px;
-  height: 350px;
-  position: absolute;
-  left: 1250px;
-  top: 2800px;
-  z-index: 994;
-  background-image: url(../img/海龜default.gif);
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-.tur:hover {
-  background-image: url(../img/海龜hover.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-.tur:active {
-  background-image: url(../img/海龜active.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-.sha {
-  width: 700px;
-  height: 700px;
-  position: absolute;
-  left: 400px;
-  top: 2985px;
-  z-index: 993;
-  background-image: url(../img/鯊魚default.gif);
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-.sha:hover {
-  background-image: url(../img/鯊魚hover.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-.sha:active {
-  background-image: url(../img/鯊魚active.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
+  visibility: hidden;
 }
 .bottomword {
   color: #ffffff;

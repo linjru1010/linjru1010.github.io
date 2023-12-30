@@ -1,35 +1,54 @@
-body {
-  background: #eeeeee;
-  width: 1920px;
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
-img {
-  top: 599px;
-  position: absolute;
-}
+/* -------navigation & footer------- */
 .navigation {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   height: 100px;
+  width: 100vw;
+  position: absolute;
+  top: 0px;
 }
-
+/* 設定logo樣式 */
 .navigation .logo img {
   width: 127px;
 }
-
+/* 設定logo位置 */
 .navigation .logo {
   position: absolute;
   top: 18px;
   left: 29px;
 }
-
+/* 設定menu樣式 */
 .navigation .menu a {
   text-decoration: none;
   color: #fff4cb;
-  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Noto Sans TC";
   font-weight: 600;
   font-size: 22px;
   letter-spacing: 2.5px;
 }
-
+.menu .normal_page a:hover {
+  color: #ffffff;
+}
+.menu .normal_page a:active {
+  color: #c5c5c5;
+}
+.highlight_page {
+  position: relative;
+}
+.menu .highlight_page a {
+  color: #c5c5c5;
+}
+.line {
+  height: 13px;
+  width: 3px;
+  background-color: #c5c5c5;
+  position: absolute;
+  top: 34px;
+  left: 62.5px;
+}
+/* 設定menu位置 */
 .navigation .menu {
   width: 400px;
   position: absolute;
@@ -40,122 +59,125 @@ img {
   display: inline-block;
   padding: 0px 15px;
 }
+/* 設定footer */
 .footer {
-  left: 894px;
-  top: 1050px;
-  position: absolute;
-  color: black;
+  color: #828282;
+  font-family: Noto Sans TC;
   font-size: 12px;
-  font-family: Inter;
   font-weight: 400;
-  word-wrap: break-word;
-}
-.content .white {
-  width: 750px;
-  height: 796px;
-  left: 585px;
-  top: 173px;
   position: absolute;
-  background: white;
+  left: calc(50% - 46px);
+  top: calc(100vh - 30px);
 }
-.content .white img {
-  width: 290px;
-  height: 414px;
-  left: 390px;
-  top: 350px;
-  position: absolute;
+/* -------navigation & footer------- */
+body {
+  background-color: #f1f1f1;
+  height: 100vh;
+  background-image: url(../img/3.0_background_wave.png);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position: bottom;
 }
-.content .white li img {
-  width: 218px;
-  height: 102px;
-  left: 246px;
-  top: 62px;
+.background2 {
+  height: calc(100vh - 100px);
+  width: 100%;
+  display: flex;
   position: absolute;
+  top: 100px;
 }
-.content .white li p {
-  width: 262px;
-  height: 102px;
-  left: 107px;
-  top: 335px;
+.white {
+  width: 630px;
+  height: 730px;
+  background-color: #ffffff;
   position: absolute;
-  font-size: 24px;
+  left: calc(50% - 315px);
+  top: calc(50% - 365px);
+}
+/* 捐款完成 */
+h1 {
+  color: #000;
   font-family: Noto Sans TC;
-  font-weight: 700;
-  word-wrap: break-word;
-  z-index: 999;
-}
-.content .white li p2 {
-  width: 350px;
-  height: 102px;
-  left: 107px;
-  top: 375px;
-  position: absolute;
-  font-size: 24px;
-  font-family: Noto Sans TC;
-  font-weight: 700;
-  word-wrap: break-word;
-  z-index: 998;
-}
-.bigword {
-  left: calc(50vw - 90px);
-  top: 365px;
-  position: absolute;
-  color: black;
   font-size: 36px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 127px;
+}
+/* 感謝支持 */
+h2 {
+  color: #000;
   font-family: Noto Sans TC;
-  font-weight: 700;
-  word-wrap: break-word;
-}
-.smallword p2 {
-  width: 362px;
-  left: 779px;
-  top: 429px;
-  position: absolute;
-  color: black;
   font-size: 18px;
-  font-family: Inter;
   font-weight: 400;
-  word-wrap: break-word;
-}
-img {
-  width: 100vw;
-  height: 348px;
-  top: 730px;
+  letter-spacing: 0.5px;
   position: absolute;
+  top: 190px;
+  left: calc(50% - 185px);
 }
-
-.firstpart {
-  width: 225px;
-  height: 60px;
-  left: 690px;
-  top: 822px;
+.say_something {
   position: absolute;
-  background: #ffffff;
-  border-radius: 5px;
-  border: 2px black solid;
-  font-size: 18px;
-  font-family: Inter;
-  font-weight: 700;
-  word-wrap: break-word;
+  top: 276px;
+  left: 53px;
+  width: 270px;
+}
+.smoking_shark {
+  position: absolute;
+  top: 321px;
+  left: 347px;
+  width: 233px;
 }
 .smoke {
-  width: 265px;
-  height: 265px;
+  position: absolute;
+  top: 255px;
+  left: 413px;
+  width: 202px;
   opacity: 50%;
 }
-.smoke img {
-  width: 265px;
-  height: 265px;
-  opacity: 50%;
-
-  left: 1070px;
-  top: 388px;
-  position: absolute;
+.white .shark_up span {
+  display: block;
+  color: #000;
+  font-family: Noto Sans TC;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 32px;
+  position: relative;
+  top: 274px;
+  left: 95px;
 }
-.grayframe img {
-  width: 330px;
-  height: 154px;
-  left: 642px;
-  top: 474px;
+/* 回到聚集地 */
+.firstpart {
+  width: 190px;
+  height: 65px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid #c5c5c5;
+  padding: 0 0 2px 0;
   position: absolute;
+  top: 564px;
+  left: 86px;
+}
+.firstpart span {
+  vertical-align: middle;
+}
+.firstpart:hover {
+  border-color: #000000;
+  background: #000000;
+  span {
+    color: #fff4cb;
+  }
+}
+.firstpart:active {
+  border-color: #ffffff;
+  background: #c5c5c5;
+  span {
+    color: #000000;
+  }
+}
+.firstpart .text {
+  font-size: 18px;
+  font-weight: 600;
+}
+.firstpart .material-symbols-outlined {
+  font-size: 28px;
 }

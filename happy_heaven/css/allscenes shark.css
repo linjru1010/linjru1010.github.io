@@ -65,7 +65,7 @@ body {
   top: 835px;
 }
 h1 {
-  width: 150px;
+  width: 145px;
   height: 48px;
   color: #fff;
   font-family: Inter;
@@ -81,7 +81,7 @@ h1 {
 h2 {
   position: absolute;
   top: 42px;
-  width: 203px;
+  width: 199px;
   height: 48px;
   color: #fff;
   font-family: Inter;
@@ -95,7 +95,7 @@ h2 {
   animation: typing 1s steps(16), caret 1s steps(1) infinite;
 }
 h3 {
-  width: 243px;
+  width: 241px;
   height: 48px;
   color: #fff;
   font-family: Inter;
@@ -111,7 +111,7 @@ h3 {
 h4 {
   position: absolute;
   top: 42px;
-  width: 232px;
+  width: 307px;
   height: 48px;
   color: #fff;
   font-family: Inter;
@@ -122,10 +122,10 @@ h4 {
   overflow: hidden;
   border-right: 0.05em solid;
   white-space: nowrap;
-  animation: typing 1.2s steps(18), caret 1s steps(1) infinite;
+  animation: typing 1.2s steps(26), caret 1s steps(1) infinite;
 }
 h5 {
-  width: 124px;
+  width: 121px;
   height: 48px;
   color: #fff;
   font-family: Inter;
@@ -155,7 +155,7 @@ h6 {
   animation: typing 0.8s steps(11), caret 1s steps(1) infinite;
 }
 h7 {
-  width: 266px;
+  width: 261px;
   height: 48px;
   color: #fff;
   font-family: Inter;
@@ -171,7 +171,7 @@ h7 {
 h8 {
   position: absolute;
   top: 42px;
-  width: 360px;
+  width: 307px;
   height: 48px;
   color: #fff;
   font-family: Inter;

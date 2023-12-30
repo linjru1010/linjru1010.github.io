@@ -313,7 +313,7 @@ body {
   height: 250px;
   position: absolute;
   top: 310px;
-  left: 30px;
+  left: 35px;
 }
 .picture_4 img {
   height: 230px;
@@ -327,11 +327,11 @@ body {
   height: 250px;
   position: absolute;
   top: 240px;
-  left: 30px;
+  left: 35px;
 }
 .picture_5 img {
-  width: 340px;
-  height: 340px;
+  width: 330px;
+  height: 330px;
 }
 .picture_6 {
   width: 250px;
@@ -346,18 +346,19 @@ body {
 }
 /* 看故事 botton*/
 .read_story {
-  width: 237px;
+  width: 190px;
   height: 65px;
-  background-color: #fff4cb;
+  background-color: #ffffff;
   border-radius: 5px;
   border: 2px solid #000000;
   position: absolute;
   top: 459px;
-  left: 349px;
+  left: 360px;
 }
 .read_story span {
   text-decoration: none;
   color: #000000;
+  padding: 0 0 2px 0;
 }
 .storystory:hover {
   .read_story {
@@ -381,7 +382,7 @@ body {
   vertical-align: middle;
 }
 .read_story .text {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 600;
 }
 .read_story .material-symbols-outlined {
@@ -431,7 +432,7 @@ body {
   font-weight: 400;
   letter-spacing: 1px;
   position: absolute;
-  left: 349px;
+  left: 360px;
   top: 357px;
 }
 /*背景的雲*/
