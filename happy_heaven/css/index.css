@@ -67,7 +67,7 @@ body {
   height: 72px;
   font-family: Noto Sans TC;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 1px;
   position: absolute;
   display: flex;
@@ -77,23 +77,23 @@ body {
   z-index: 999;
 }
 .rabbitword {
-  left: 1559px;
+  left: calc(100vw - 250px);
   top: 1228px;
   position: absolute;
-  color: black;
+  color: #333;
   font-size: 20px;
   font-family: Inter;
-  font-weight: 400;
+  font-weight: 500;
   word-wrap: break-word;
 }
 .rabbitword2 {
-  left: 1559px;
+  left: calc(100vw - 250px);
   top: 1264px;
   position: absolute;
-  color: black;
+  color: #333;
   font-size: 20px;
   font-family: Inter;
-  font-weight: 400;
+  font-weight: 500;
   word-wrap: break-word;
 }
 .eleword {
@@ -101,10 +101,10 @@ body {
   left: 62px;
   top: 1657px;
   position: absolute;
-  color: black;
+  color: #333;
   font-size: 20px;
   font-family: Inter;
-  font-weight: 400;
+  font-weight: 500;
   word-wrap: break-word;
   line-height: 1.6em;
 }
@@ -112,31 +112,33 @@ body {
   left: 62px;
   top: 1729px;
   position: absolute;
-  color: black;
+  color: #333;
   font-size: 20px;
   font-family: Inter;
-  font-weight: 400;
+  font-weight: 500;
   word-wrap: break-word;
 }
 .gooseeword {
-  left: 1500px;
-  top: 2116px;
+  left: 1650px;
+  top: 2244px;
   position: absolute;
-  color: black;
+  color: #fff;
   font-size: 20px;
   font-family: Inter;
-  font-weight: 400;
+  font-weight: 500;
   word-wrap: break-word;
+  z-index: 999;
 }
 .gooseword2 {
-  left: 1500px;
-  top: 2152px;
+  left: 1650px;
+  top: 2280px;
   position: absolute;
-  color: black;
+  color: #fff;
   font-size: 20px;
   font-family: Inter;
-  font-weight: 400;
+  font-weight: 500;
   word-wrap: break-word;
+  z-index: 999;
 }
 
 .sealword {
@@ -144,33 +146,33 @@ body {
   left: 459px;
   top: 2570px;
   position: absolute;
-  color: black;
+  color: #333;
   font-size: 20px;
   font-family: Inter;
-  font-weight: 400;
+  font-weight: 500;
   word-wrap: break-word;
   line-height: 1.6em;
   z-index: 994;
 }
 .turword {
-  left: 1594px;
-  top: 3020px;
+  left: 1550px;
+  top: 2770px;
   position: absolute;
-  color: black;
+  color: #333;
   font-size: 20px;
   font-family: Inter;
-  font-weight: 400;
+  font-weight: 500;
   word-wrap: break-word;
   z-index: 994;
 }
 .turword2 {
-  left: 1594px;
-  top: 3056px;
+  left: 1550px;
+  top: 2806px;
   position: absolute;
-  color: black;
+  color: #333;
   font-size: 20px;
   font-family: Inter;
-  font-weight: 400;
+  font-weight: 500;
   word-wrap: break-word;
   z-index: 994;
 }
@@ -179,10 +181,10 @@ body {
   left: 170px;
   top: 3281px;
   position: absolute;
-  color: black;
+  color: #333;
   font-size: 20px;
   font-family: Inter;
-  font-weight: 400;
+  font-weight: 500;
   word-wrap: break-word;
   line-height: 1.6em;
   z-index: 994;
@@ -228,7 +230,7 @@ body {
   -webkit-transform: scaleX(-1);
   -o-transform: scaleX(-1);
   transform: scaleX(-1);
-  cursor: url(../img/knife.png) 55 55, move;
+  cursor: url(../img/knife.png) 8 14, move;
 }
 .hover1:hover {
   background-image: url(../img/大象hover.png);
@@ -261,7 +263,7 @@ body {
   background-image: url(../img/兔子default.gif);
   background-size: 100%;
   background-repeat: no-repeat;
-  cursor: url(../img/knife.png) 55 55, move;
+  cursor: url(../img/knife.png) 8 14, move;
 }
 .hover2:hover {
   background-image: url(../img/兔hover.png);
@@ -290,7 +292,7 @@ body {
   background-image: url(../img/海獅default.gif);
   background-size: 100%;
   background-repeat: no-repeat;
-  cursor: url(../img/knife.png) 55 55, move;
+  cursor: url(../img/knife.png) 8 14, move;
 }
 .hover3:hover {
   background-image: url(../img/海獅hover.png);
@@ -313,13 +315,13 @@ body {
   width: 350px;
   height: 350px;
   position: absolute;
-  left: 1250px;
-  top: 2800px;
+  left: 1240px;
+  top: 2750px;
   z-index: 994;
   background-image: url(../img/海龜default.gif);
   background-size: 100%;
   background-repeat: no-repeat;
-  cursor: url(../img/knife.png) 55 55, move;
+  cursor: url(../img/knife.png) 8 14, move;
 }
 .hover4:hover {
   background-image: url(../img/海龜hover.png);
@@ -330,8 +332,8 @@ body {
   width: 350px;
   height: 350px;
   position: absolute;
-  left: 1250px;
-  top: 2800px;
+  left: 1240px;
+  top: 2750px;
   z-index: 994;
   background-image: url(../img/海龜active.png);
   background-size: 100%;
@@ -342,13 +344,13 @@ body {
   width: 700px;
   height: 700px;
   position: absolute;
-  left: 400px;
-  top: 2985px;
+  left: 440px;
+  top: 3000px;
   z-index: 993;
   background-image: url(../img/鯊魚default.gif);
   background-size: 100%;
   background-repeat: no-repeat;
-  cursor: url(../img/knife.png) 55 55, move;
+  cursor: url(../img/knife.png) 8 14, move;
 }
 .hover5:hover {
   background-image: url(../img/鯊魚hover.png);
@@ -359,8 +361,8 @@ body {
   width: 700px;
   height: 700px;
   position: absolute;
-  left: 400px;
-  top: 2985px;
+  left: 440px;
+  top: 3000px;
   z-index: 993;
   background-image: url(../img/鯊魚active.png);
   background-size: 100%;
@@ -381,7 +383,7 @@ body {
   -webkit-transform: scaleX(-1);
   -o-transform: scaleX(-1);
   transform: scaleX(-1);
-  cursor: url(../img/knife.png) 55 55, move;
+  cursor: url(../img/knife.png) 8 14, move;
 }
 .hover6:hover {
   background-image: url(../img/鵝hover.png);

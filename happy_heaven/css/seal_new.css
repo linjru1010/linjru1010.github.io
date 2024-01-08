@@ -1,0 +1,466 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  border: 0;
+  vertical-align: baseline;
+}
+#preloader {
+  background-color: #fff;
+  background-image: url(../img/loading.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 15%;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  z-index: 10000;
+}
+body iframe {
+  z-index: 1;
+  opacity: 0;
+}
+/* -------navigation & footer------- */
+header ul {
+  padding-left: 2rem;
+}
+header {
+  background-color: #000;
+  height: 100px;
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  z-index: 999;
+}
+header .black {
+  background-color: #000;
+}
+/* 設定logo樣式 */
+header .logo img {
+  width: 127px;
+}
+/* 設定logo位置 */
+header .logo {
+  position: absolute;
+  top: 18px;
+  left: 29px;
+}
+/* 設定menu樣式 */
+header .menu a {
+  text-decoration: none;
+  color: #fff4cb;
+  font-family: "Noto Sans TC";
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 2.5px;
+}
+.menu .normal_page a:hover {
+  color: #ffffff;
+}
+.menu .normal_page a:active {
+  color: #c5c5c5;
+}
+.highlight_page {
+  position: relative;
+}
+.menu .highlight_page a {
+  color: #c5c5c5;
+}
+.line {
+  height: 13px;
+  width: 3px;
+  background-color: #c5c5c5;
+  position: absolute;
+  top: 34px;
+  left: 62.5px;
+}
+/* 設定menu位置 */
+header .menu {
+  width: 410px;
+  position: absolute;
+  top: 53px;
+  left: calc(100vw - 580px);
+}
+header .menu li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+/* 設定footer */
+.footer {
+  color: #828282;
+  font-family: Noto Sans TC;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 46px);
+  top: calc(100vh - 30px);
+}
+/* -------navigation & footer------- */
+.fp-watermark {
+  display: none;
+}
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background: #454545;
+}
+.section {
+  text-align: center;
+  color: #ffffff;
+}
+/* 第一頁 */
+#section1 {
+  background-image: url(../img/3.0.1_seal.png);
+  background-repeat: no-repeat;
+  background-size: auto calc(100vh - 100px);
+  background-position-x: center;
+  background-position-y: bottom;
+}
+#section1 .smoke {
+  width: 195px;
+  opacity: 50%;
+  position: absolute;
+  left: calc(50% - 67px);
+  bottom: calc(50% - 70px);
+}
+#section1 .scroll {
+  width: 60px;
+  position: absolute;
+  left: calc(50vw - 30px);
+  bottom: 12px;
+}
+/* 第二頁 */
+.mask {
+  width: 100vw;
+  height: calc(100vh - 100px);
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#section2 p {
+  color: #000;
+  font-family: "Noto Sans TC";
+  font-weight: 600;
+  font-size: 40px;
+  display: flex;
+  height: 12%;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  top: -7px;
+  line-height: 1.7;
+  letter-spacing: 1px;
+}
+#section2 .image {
+  background-color: #ffffff;
+  width: 630px;
+  height: 630px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -7px;
+}
+#section2 img {
+  width: 494px;
+}
+/* 第三頁 */
+.fp-prev {
+  left: 55px;
+}
+.fp-next {
+  right: 55px;
+}
+.fp-arrow.fp-prev {
+  border-width: 38.5px 30px 38.5px 0;
+  border-radius: 5px;
+  border-color: transparent #454545 transparent transparent;
+}
+.fp-arrow.fp-next {
+  border-width: 38.5px 0 38.5px 30px;
+  border-radius: 5px;
+  border-color: transparent transparent transparent #ffffff;
+}
+.fp-slidesNav ul li a span {
+  background: #c5c5c5;
+}
+.mask_3 {
+  width: 100vw;
+  height: calc(100vh - 100px);
+  position: absolute;
+  bottom: 0;
+}
+/* 第一屏 */
+.top_1_1 {
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: -40px;
+}
+.top_1_1 p {
+  color: #fff;
+  font-family: Noto Sans;
+  font-size: 36px;
+  font-weight: 600;
+  padding: 20px 0;
+  letter-spacing: 2px;
+}
+.top_1_1 .title_line {
+  width: 50px;
+  height: 9px;
+  background: #828282;
+}
+.top_1_2 {
+  height: 60%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  position: absolute;
+  left: 18vw;
+}
+.top_1_2 ul {
+  margin: 5px;
+}
+.top_1_2 ul li {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 4.5px;
+}
+.top_1_2 ul li p {
+  color: #fff;
+  font-family: Noto Sans TC;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+.top_1_2 ul #p {
+  position: relative;
+  top: -8px;
+}
+.top_1_2 ul li img {
+  width: 45px;
+}
+.top_1_2 .content_1_2 {
+  width: 840px;
+  height: 220px;
+  border-radius: 5px;
+  background: #f1f1f1;
+}
+.top_1_2 .content_1_2 p {
+  width: 715px;
+  color: #000;
+  font-family: Noto Sans TC;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.75em;
+  letter-spacing: 0.5px;
+  word-break: break-word;
+  text-align: justify;
+  position: relative;
+  top: 34px;
+  left: 62px;
+}
+.mask_3 .animal {
+  width: 400px;
+  position: absolute;
+  left: 65%;
+  top: calc(50% - 180px);
+}
+/* 第二屏 */
+.top_2_1 {
+  color: #fff;
+  font-family: Noto Sans TC;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+.top_2_2 {
+  width: 750px;
+  text-align: justify;
+  word-break: break-word;
+  color: #fff;
+  font-family: Noto Sans TC;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.75em;
+  letter-spacing: 0.5px;
+}
+.slide_2 ul {
+  position: relative;
+  top: calc(50% - 160px);
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 80px;
+}
+.slide_2 img {
+  width: 250px;
+  position: absolute;
+  left: calc(100% - 250px);
+  top: 300px;
+}
+/* 第三屏 */
+.slide_3 img {
+  width: 80px;
+  position: absolute;
+  top: 142px;
+  left: calc(50% - 40px);
+}
+.slide_3 .title_3 {
+  color: #fff;
+  font-family: Noto Sans TC;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  position: absolute;
+  top: 228px;
+  left: calc(50% - 184px);
+}
+.slide_3 .content_3 {
+  width: 840px;
+  height: 200px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  position: absolute;
+  top: 338px;
+  left: calc(50% - 420px);
+}
+.slide_3 .content_3 p {
+  width: 750px;
+  text-align: justify;
+  word-break: break-word;
+  color: #000;
+  font-family: Noto Sans TC;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.75em;
+  letter-spacing: 0.5px;
+  position: relative;
+  top: 35px;
+  left: 46px;
+}
+/* 第四屏 */
+.slide_4 img {
+  width: 80px;
+  position: absolute;
+  top: 193px;
+  left: calc(50% - 550px);
+}
+.slide_4 .title_4 {
+  width: 279px;
+  color: #fff;
+  font-family: Noto Sans TC;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.slide_4 .content_4 {
+  width: 1006px;
+  text-align: justify;
+  word-break: break-word;
+  color: #fff;
+  font-family: Noto Sans TC;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.75em;
+  letter-spacing: 0.5px;
+  position: absolute;
+  left: 0;
+  top: 100px;
+}
+.slide_4 a {
+  width: 209px;
+  text-decoration: none;
+  color: #828282;
+  font-family: Noto Sans TC;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
+  position: absolute;
+  left: 797px;
+  top: 410px;
+}
+.slide_4 a:hover {
+  color: #fff4cb;
+}
+.slide_4 a:active {
+  color: #c5c5c5;
+}
+#section3 .scroll {
+  width: 60px;
+  position: absolute;
+  left: calc(50vw - 30px);
+  top: calc(100% - 120px);
+}
+.slide_4 .align {
+  height: 439px;
+  position: absolute;
+  top: 226px;
+  left: calc(50% - 453px);
+}
+/* 第四頁 */
+#section4 img {
+  width: 450px;
+  position: absolute;
+  left: calc(50% - 225px);
+  top: 45px;
+}
+#section4 .donate_button {
+  width: 347px;
+  height: 150px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 5px;
+  position: absolute;
+  left: calc(50% - 173.5px);
+  top: 510px;
+}
+#section4 .donate_button:hover {
+  background-color: #000000;
+  color: #fff4cb;
+}
+#section4 .donate_button:active {
+  background-color: #c5c5c5;
+  color: #000000;
+}
+#section4 .donate_button #p1 {
+  font-family: Noto Sans;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+#section4 .donate_button #p2 {
+  font-family: Inria Sans;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 3.2px;
+}
+#section4 .next {
+  text-decoration: none;
+  color: #828282;
+  font-family: Noto Sans TC;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
+  position: absolute;
+  left: 797px;
+  top: 410px;
+  position: absolute;
+  left: calc(50% + 500px);
+  top: 80%;
+}
+#section4 .next:hover {
+  color: #454545;
+}
+#section4 .next:active {
+  color: #c5c5c5;
+}

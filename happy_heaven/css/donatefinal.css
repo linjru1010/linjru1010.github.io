@@ -99,10 +99,9 @@ h1 {
   font-family: Noto Sans TC;
   font-size: 36px;
   font-weight: 600;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  top: 127px;
+  position: absolute;
+  left: calc(50% - 80px);
+  top: 152px;
 }
 /* 感謝支持 */
 h2 {
@@ -112,24 +111,38 @@ h2 {
   font-weight: 400;
   letter-spacing: 0.5px;
   position: absolute;
-  top: 190px;
+  top: 210px;
   left: calc(50% - 185px);
+}
+.delay {
+  opacity: 0;
+  animation: delay 0.6s ease-in-out;
+  animation-delay: 1.2s;
+  animation-fill-mode: forwards;
+}
+@keyframes delay {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .say_something {
   position: absolute;
-  top: 276px;
+  top: 286px;
   left: 53px;
   width: 270px;
 }
 .smoking_shark {
   position: absolute;
-  top: 321px;
+  top: 331px;
   left: 347px;
   width: 233px;
 }
 .smoke {
   position: absolute;
-  top: 255px;
+  top: 265px;
   left: 413px;
   width: 202px;
   opacity: 50%;
@@ -142,7 +155,7 @@ h2 {
   font-weight: 600;
   line-height: 32px;
   position: relative;
-  top: 274px;
+  top: 335px;
   left: 95px;
 }
 /* 回到聚集地 */
@@ -154,7 +167,7 @@ h2 {
   border: 2px solid #c5c5c5;
   padding: 0 0 2px 0;
   position: absolute;
-  top: 564px;
+  top: 574px;
   left: 86px;
 }
 .firstpart span {
@@ -180,4 +193,39 @@ h2 {
 }
 .firstpart .material-symbols-outlined {
   font-size: 28px;
+}
+/* 打勾動畫 */
+.check {
+  position: absolute;
+  top: 53px;
+  left: calc(50% - 37.5px);
+}
+.circle {
+  stroke-dasharray: 217;
+  stroke-dashoffset: 217;
+  animation: circle 1s ease-in-out;
+  animation-fill-mode: forwards;
+}
+@keyframes circle {
+  0% {
+    stroke-dashoffset: 217;
+  }
+  100% {
+    stroke-dashoffset: 434;
+  }
+}
+.polyline {
+  stroke-dasharray: 55;
+  stroke-dashoffset: 55;
+  animation: polyline 0.8s ease-out;
+  animation-delay: 0.95s;
+  animation-fill-mode: forwards;
+}
+@keyframes polyline {
+  0% {
+    stroke-dashoffset: 55;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
 }

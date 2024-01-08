@@ -1,44 +1,79 @@
 body {
   background: #eeeeee;
 }
-.navigation {
-  background-color: black;
+/* -------navigation & footer------- */
+header {
+  background-color: #000;
   height: 100px;
   width: 100vw;
-  top: 0%;
-  position: fixed;
+  position: absolute;
+  top: 0px;
   z-index: 999;
 }
-
-.navigation .logo img {
+header .black {
+  background-color: #000;
+}
+/* 設定logo樣式 */
+header .logo img {
   width: 127px;
 }
-
-.navigation .logo {
+/* 設定logo位置 */
+header .logo {
   position: absolute;
   top: 18px;
   left: 29px;
 }
-
-.navigation .menu a {
+/* 設定menu樣式 */
+header .menu a {
   text-decoration: none;
   color: #fff4cb;
-  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Noto Sans TC";
   font-weight: 600;
   font-size: 22px;
   letter-spacing: 2.5px;
 }
-
-.navigation .menu {
+.menu .normal_page a:hover {
+  color: #ffffff;
+}
+.menu .normal_page a:active {
+  color: #c5c5c5;
+}
+.highlight_page {
+  position: relative;
+}
+.menu .highlight_page a {
+  color: #c5c5c5;
+}
+.line {
+  height: 13px;
+  width: 3px;
+  background-color: #c5c5c5;
+  position: absolute;
+  top: 34px;
+  left: 62.5px;
+}
+/* 設定menu位置 */
+header .menu {
   width: 400px;
   position: absolute;
   top: 53px;
   left: calc(100vw - 580px);
 }
-.navigation .menu li {
+header .menu li {
   display: inline-block;
   padding: 0px 15px;
 }
+/* 設定footer */
+.footer {
+  color: #333333;
+  font-family: Noto Sans TC;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 46px);
+  top: calc(100vh - 30px);
+}
+/* -------navigation & footer------- */
 .headline {
   left: 880px;
   top: 173px;

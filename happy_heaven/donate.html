@@ -20,22 +20,26 @@
   </head>
 
   <body>
-    <div class="navigation">
+    <!--navigation-->
+    <header>
       <ul class="logo">
         <a href="./index.html"><img src="./img/logo.png" /></a>
       </ul>
       <ul class="menu">
-        <li>
-          <a href="./animal_stories.html">動物仙境</a>
+        <li class="normal_page">
+          <a href="./animal_stories.html"><p>動物仙境</p></a>
         </li>
-        <li>
-          <a href="./donate.html">消除孽障</a>
+        <li class="highlight_page">
+          <a href="./donate.html"><p>消除孽障</p></a>
+          <div class="line"></div>
         </li>
-        <li>
-          <a href="#">天使幫</a>
+        <li class="normal_page">
+          <a href="#"><p>天使幫</p></a>
         </li>
       </ul>
-    </div>
+    </header>
+    <p class="footer">＠happy heaven</p>
+    <!--navigation-->
 
     <div class="content">
       <div class="headline">捐助動物</div>
@@ -102,15 +106,24 @@
       <div class="bottom-line"></div>
 
       <a href="./donate2.html"
-        ><button class="nextpart"><span>下一步▶</span></button>
+        ><button class="nextpart"><span>下一步 ▶</span></button>
       </a>
 
       <div class="donatepart1">選擇金額</div>
       <div class="donatepart2">捐款人資料</div>
       <div class="donatepart3">線上付款</div>
       <div class="donatepart4">捐款完成</div>
-      <p class="footer">＠happy heaven</p>
     </div>
+    <script>
+      document.addEventListener("scroll", () => {
+        const header = document.querySelector("header");
+        if (window.scrollY > 0) {
+          header.classList.add("scrolled");
+        } else {
+          header.classList.remove("scrolled");
+        }
+      });
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
